@@ -1,10 +1,10 @@
 Yii2 PHP Excel
 ==============
 
-[![Latest Stable Version](https://poser.pugx.org/moonlandsoft/yii2-phpexcel/v/stable)](https://packagist.org/packages/moonlandsoft/yii2-phpexcel) 
-[![Total Downloads](https://poser.pugx.org/moonlandsoft/yii2-phpexcel/downloads)](https://packagist.org/packages/moonlandsoft/yii2-phpexcel) 
-[![Latest Unstable Version](https://poser.pugx.org/moonlandsoft/yii2-phpexcel/v/unstable)](https://packagist.org/packages/moonlandsoft/yii2-phpexcel) 
-[![License](https://poser.pugx.org/moonlandsoft/yii2-phpexcel/license)](https://packagist.org/packages/moonlandsoft/yii2-phpexcel)
+[![Latest Stable Version](https://poser.pugx.org/moonlandsoft/yii2-phpexcel/v/stable)](https://packagist.org/packages/marchrainbow/yii2-phpexcel) 
+[![Total Downloads](https://poser.pugx.org/moonlandsoft/yii2-phpexcel/downloads)](https://packagist.org/packages/marchrainbow/yii2-phpexcel) 
+[![Latest Unstable Version](https://poser.pugx.org/moonlandsoft/yii2-phpexcel/v/unstable)](https://packagist.org/packages/marchrainbow/yii2-phpexcel) 
+[![License](https://poser.pugx.org/moonlandsoft/yii2-phpexcel/license)](https://packagist.org/packages/marchrainbow/yii2-phpexcel)
 
 Exporting PHP to Excel or Importing Excel to PHP.
 Excel Widget for generate Excel File or for load Excel File.
@@ -51,13 +51,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist moonlandsoft/yii2-phpexcel "*"
+php composer.phar require --prefer-dist marchrainbow/yii2-phpexcel "*"
 ```
 
 or add
 
 ```
-"moonlandsoft/yii2-phpexcel": "*"
+"marchrainbow/yii2-phpexcel": "*"
 ```
 
 to the require section of your `composer.json` file.
