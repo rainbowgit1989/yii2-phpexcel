@@ -644,8 +644,14 @@ class Excel extends \yii\base\Widget
 	    		$index = 0;
 	    		$worksheet = [];
 	    		foreach ($this->models as $title => $models) {
-	    			$sheet->createSheet($index);
-	    			$sheet->getSheet($index)->setTitle($title);
+	    			//$sheet->createSheet($index);
+	    			//$sheet->getSheet($index)->setTitle($title);
+				  if ($index){
+                       			 $sheet->createSheet($index)->setTitle($title);
+                  	  }else{
+                      		  $sheet->getActiveSheet()->setTitle($title);
+                    		}
+
 	    			$worksheet[$index] = $sheet->getSheet($index);
 	    			$columns = isset($this->columns[$title]) ? $this->columns[$title] : [];
 	    			$headers = isset($this->headers[$title]) ? $this->headers[$title] : [];
